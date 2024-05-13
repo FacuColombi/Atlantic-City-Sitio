@@ -1,17 +1,4 @@
 
-// INTEGRACION API
-
-let long = -54.64687479508448;
-let lat = -34.83626730014706;
-const url = `https://api.maptiler.com/maps/basic-v2/?key=n8VMrkEsbv9eBiofnp3B#16.5/${lat}/${long}`;
-
-fetch(url)
-  .then(response => response)
-  .then(data => console.log(data))
-
-console.log(url);
-
-// ==========================================================
 
 // CAROUSEL
 
